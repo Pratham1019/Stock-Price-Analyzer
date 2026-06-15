@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investrr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>INVESTRR<span>.</span></h1>
+        <p class="tagline">Live market data, on demand</p>
+    </div>
+
+    <div class="main_part">
+
+        <div class="info">
+            <span class="info_label">Stocks</span>
+            <div class="search">
+                <input class="srch stockSearch" type="text" placeholder="e.g. Tata Steel, Reliance" id="stockSearch">
+                <button class="btn" id="searchBtn" onclick="getStockData()">Search</button>
+            </div>
+            <div class="place_stock" id="stockResult">
+                <div class="inside">
+                    <p class="placeholder-text">Enter a company name and click Search to see details.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info">
+            <span class="info_label">Crypto</span>
+            <div class="search">
+                <input class="srch cryptoSearch" type="text" placeholder="e.g. bitcoin, ethereum" id="cryptoSearch">
+                <button class="btn" id="cryptoBtn" onclick="getCryptoData()">Search</button>
+            </div>
+            <div class="place" id="cryptoResult">
+                <div class="inside">
+                    <p class="placeholder-text">Enter a crypto name and click Search to see details.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>

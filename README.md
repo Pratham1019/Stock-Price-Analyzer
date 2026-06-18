@@ -24,8 +24,8 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Manthan-Karnani/Stock-Price-Analyzer.git
+cd Stock-Price-Analyzer
 ```
 
 ### 2. Install Dependencies

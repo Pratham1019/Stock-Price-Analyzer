@@ -7,7 +7,7 @@ async function getStockData() {
     const resultBox = document.getElementById('stockResult');
     resultBox.innerHTML = `<div class="inside"><p class="loading_text">Fetching data...</p></div>`;
 
-    const url = `http://localhost:3000/api/stock?name=${symbol}`;
+    const url = `https://stock-price-analyzer-2.onrender.com/api/stock?name=${symbol}`;
 
     try {
         let response = await fetch(url);
@@ -52,7 +52,7 @@ async function getCryptoData() {
     const resultBox = document.getElementById('cryptoResult');
     resultBox.innerHTML = `<div class="inside"><p class="loading_text">Fetching data...</p></div>`;
 
-    const url = `http://localhost:3000/api/crypto?name=${coin}`;
+    const url = `https://stock-price-analyzer-2.onrender.com/api/crypto?name=${coin}`;
 
     try {
         let response = await fetch(url);
